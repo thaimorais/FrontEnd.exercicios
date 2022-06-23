@@ -1,0 +1,32 @@
+.teste {
+  background-color: rgb(128, 121, 121);
+  color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ol-menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.li-menu {
+  margin: 5px 10px;
+  padding: 5px;
+  border-right: 0.4px solid #fff;
+  border-radius: 8px;
+}
+
+.li-menu:hover {
+  background-color: rgba(0, 0, 0, 0.159);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.card {
+  padding: 10px;
+  margin: 20px;
+  width: 500px;
+  border: 2px solid blue;
+}
